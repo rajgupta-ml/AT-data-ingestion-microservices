@@ -1,0 +1,29 @@
+{
+  "name": "api_data_ingestion_microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node ./dist/server/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "protobufjs": "^7.4.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.13",
+    "@types/ws": "^8.5.12",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  }
+}
